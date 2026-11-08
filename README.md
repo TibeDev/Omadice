@@ -2,7 +2,7 @@
 
 An [Omarchy](https://omarchy.org/) plugin for throwing a physics-driven 3D die across your desktop. Click the dice widget to throw; right-click it to open settings.
 
-[![Omadice preview](preview.gif)](preview.gif)
+[![Omadice preview](preview.png)](preview.gif)
 
 ## Install
 
