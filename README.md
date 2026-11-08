@@ -6,7 +6,9 @@ An [Omarchy](https://omarchy.org/) plugin for throwing a physics-driven 3D die a
 
 ## Install
 
-The plugin repository has not been published yet.
+```bash
+omarchy plugin add https://github.com/TibeDev/Omadice.git --enable
+```
 
 ## Usage
 
