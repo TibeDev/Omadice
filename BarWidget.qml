@@ -8,6 +8,16 @@ BarWidget {
     moduleName: "tibevdb.dice"
     property bool menuOpen: false
     property int menuIndex: 0
+    readonly property bool opened: menuOpen
+
+    function open() {
+        menuIndex = 0
+        menuOpen = true
+    }
+
+    function toggle() {
+        root.toggleSettings()
+    }
 
     readonly property real throwPower: {
         var configured = Number(root.setting("throwPower", 1))
