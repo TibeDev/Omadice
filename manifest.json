@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tibevdb.dice",
+  "name": "Omadice",
+  "version": "1.0.0",
+  "author": "tibevdb",
+  "license": "MIT",
+  "description": "Throw a rolling 3D die across the screen from the Omarchy bar.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Omadice",
+    "category": "Games",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
